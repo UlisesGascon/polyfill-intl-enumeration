@@ -1,9 +1,9 @@
+const supportedValues = require('./data')
 function supportedValuesOf (key) {
-  const supportedValues = ['calendar', 'collation', 'currency', 'numberingSystem', 'timeZone', 'unit']
-  if (supportedValues.includes(key)) {
-    return []
+  if (supportedValues[key]) {
+    return supportedValues[key]
   }
-  throw new RangeError(`The key must be one of the following values: ${supportedValues.join(', ')}.`)
+  throw new RangeError(`Invalid key : ${key}`)
 }
 
 module.exports = {
