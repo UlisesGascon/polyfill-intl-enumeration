@@ -7,7 +7,7 @@ beforeAll(() => {
   require('../src/globalThis')
 
   // Remove Intl.enumeration if exists
-  if(Intl && Intl.supportedValuesOf) {
+  if (Intl && Intl.supportedValuesOf) {
     delete Intl.supportedValuesOf
   }
 

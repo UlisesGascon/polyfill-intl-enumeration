@@ -1,5 +1,3 @@
-/* eslint no-extend-native: 0 */
-/* eslint no-undef: 0 */
 const { supportedValuesOf } = require('./enumeration')
 require('./globalThis')
 
