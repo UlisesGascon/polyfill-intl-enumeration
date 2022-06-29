@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/UlisesGascon/polyfill-intl-enumeration/compare/v0.0.4...v0.0.5) (2022-06-29)
+
+
+### Bug Fixes
+
+* defined prepublish step for library publication ([e629af1](https://github.com/UlisesGascon/polyfill-intl-enumeration/commits/e629af168221b5d11969855bcc295788bfc162cd))
+
 ### [0.0.4](https://github.com/UlisesGascon/polyfill-intl-enumeration/compare/v0.0.3...v0.0.4) (2022-06-29)
 
 
