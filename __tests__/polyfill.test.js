@@ -18,11 +18,11 @@ describe('Intl.supportedValuesOf', () => {
   it('Should trow RangeError if the key is invalid', () => {
     expect(() => Intl.supportedValuesOf('INVENTED')).toThrow(RangeError)
   })
-  
+
   test.each(cases)(
-    "Should return %p list",
-    (key,) => {
-      expect(Intl.supportedValuesOf(key)).toStrictEqual(supportedValues[key]);
+    'Should return %p list',
+    (key) => {
+      expect(Intl.supportedValuesOf(key)).toStrictEqual(supportedValues[key])
     }
-  );
+  )
 })
