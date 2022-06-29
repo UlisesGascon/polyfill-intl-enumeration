@@ -1,0 +1,24 @@
+name: PR health check
+
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Check the project
+      uses: actions/setup-node@v1
+      with:
+        node-version: '16.15.1'
+
+    - name: 'Dependencies'
+      run: npm ci
+    
+    - name: 'Linter'
+      run: npm run lint
+    
+    - name: 'Tests'
+      run: npm run test:coverage 
