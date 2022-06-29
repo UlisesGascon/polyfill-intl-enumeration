@@ -1,7 +1,19 @@
-require('../src')
 const supportedValues = require('../src/data')
 
 const cases = Object.keys(supportedValues)
+
+beforeAll(() => {
+  // Ensure THIS scope
+  require('../src/globalThis')
+
+  // Remove Intl.enumeration if exists
+  if(Intl && Intl.supportedValuesOf) {
+    delete Intl.supportedValuesOf
+  }
+
+  // Force to load the polyfill
+  require('../src')
+})
 
 describe('Polyfill load', () => {
   it('Should ADD the polyfill in the global scope', () => {
