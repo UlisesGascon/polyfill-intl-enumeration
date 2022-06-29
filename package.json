@@ -1,6 +1,6 @@
 {
   "name": "polyfill-intl-enumeration",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Polyfill for intl enumeration",
   "main": "src/index.js",
   "scripts": {

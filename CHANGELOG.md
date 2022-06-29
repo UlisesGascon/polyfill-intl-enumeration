@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/UlisesGascon/polyfill-intl-enumeration/compare/v0.0.5...v0.0.6) (2022-06-29)
+
+
+### Features
+
+* added core functionality  ([cbb32d3](https://github.com/UlisesGascon/polyfill-intl-enumeration/commits/cbb32d39111ad307b4d4cdb5998f12cb91f11a26))
+
 ### [0.0.5](https://github.com/UlisesGascon/polyfill-intl-enumeration/compare/v0.0.4...v0.0.5) (2022-06-29)
 
 
