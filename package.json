@@ -1,0 +1,24 @@
+{
+  "name": "polyfill-intl-enumeration",
+  "version": "0.0.1",
+  "description": "Polyfill for intl enumeration",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesGascon/polyfill-intl-enumeration.git"
+  },
+  "keywords": [
+    "polyfill",
+    "intl",
+    "enumeration"
+  ],
+  "author": "Ulises Gascon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UlisesGascon/polyfill-intl-enumeration/issues"
+  },
+  "homepage": "https://github.com/UlisesGascon/polyfill-intl-enumeration#readme"
+}
