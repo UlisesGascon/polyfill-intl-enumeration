@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/UlisesGascon/polyfill-intl-enumeration/compare/v0.0.7...v0.0.8) (2022-06-29)
+
+
+### Bug Fixes
+
+* ensure Intl.supportedValuesOf is loaded in tests envronment ([0102541](https://github.com/UlisesGascon/polyfill-intl-enumeration/commits/0102541674c457f2410b4876dc7ab271e69de907))
+
 ### [0.0.7](https://github.com/UlisesGascon/polyfill-intl-enumeration/compare/v0.0.6...v0.0.7) (2022-06-29)
 
 ### [0.0.6](https://github.com/UlisesGascon/polyfill-intl-enumeration/compare/v0.0.5...v0.0.6) (2022-06-29)
