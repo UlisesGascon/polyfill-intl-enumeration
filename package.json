@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/UlisesGascon/polyfill-intl-enumeration#readme",
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "standard-version": "9.5.0"
   }
 }
