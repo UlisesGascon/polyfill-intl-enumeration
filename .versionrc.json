@@ -1,0 +1,14 @@
+{
+  "types": [
+    {"type": "feat", "section": "Features"},
+    {"type": "fix", "section": "Bug Fixes"},
+    {"type": "chore", "hidden": "Other"},
+    {"type": "docs", "hidden": "Other"},
+    {"type": "style", "hidden": "Style"},
+    {"type": "refactor", "hidden": "Other"},
+    {"type": "perf", "hidden": "Other"},
+    {"type": "test", "hidden": "Tess"}
+  ],
+  "commitUrlFormat": "https://github.com/UlisesGascon/polyfill-intl-enumeration/commits/{{hash}}",
+  "compareUrlFormat": "https://github.com/UlisesGascon/polyfill-intl-enumeration/compare/{{previousTag}}...{{currentTag}}"
+} 

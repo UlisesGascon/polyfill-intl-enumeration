@@ -4,7 +4,11 @@
   "description": "Polyfill for intl enumeration",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "repository": {
     "type": "git",
@@ -20,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/UlisesGascon/polyfill-intl-enumeration/issues"
   },
-  "homepage": "https://github.com/UlisesGascon/polyfill-intl-enumeration#readme"
+  "homepage": "https://github.com/UlisesGascon/polyfill-intl-enumeration#readme",
+  "devDependencies": {
+    "standard-version": "9.5.0"
+  }
 }
