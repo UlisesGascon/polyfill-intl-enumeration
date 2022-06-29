@@ -4,7 +4,9 @@
   "description": "Polyfill for intl enumeration",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cross-env NODE_ENV=testing jest --verbose",
+    "test:coverage": "cross-env NODE_ENV=testing jest --verbose  --coverage",
+    "test:watch": "cross-env NODE_ENV=testing jest --verbose --watchAll",
     "lint": "standard",
     "lint:fix": "standard --fix",
     "release": "standard-version",
@@ -21,6 +23,11 @@
     "intl",
     "enumeration"
   ],
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
   "author": "Ulises Gascon",
   "license": "MIT",
   "bugs": {
@@ -30,6 +37,8 @@
   "devDependencies": {
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
+    "cross-env": "7.0.3",
+    "jest": "28.1.1",
     "standard": "17.0.0",
     "standard-version": "9.5.0"
   }
